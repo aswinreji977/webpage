@@ -26,3 +26,17 @@ body {
   background-size: cover;
   color:white;
 }
+div.prgm{ 
+	background-color:lightgray; border:3px double black; width:210px; align:center; margin:10px; text-align:center;
+	padding:5px; float:left; color:black;
+}
+div.prgm img{
+	height:200px; width:200px;
+}
+#p{
+	height:300px;
+	
+}
+#contact{
+	font-size:20px;
+}
