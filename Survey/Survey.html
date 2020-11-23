@@ -2,6 +2,7 @@
 <html>
     <head>
         <title>GIT Survey</title>
+        <link href="Survey.css" rel="stylesheet" type="text/css">
     </head>
 </html>
 <body>
@@ -17,10 +18,11 @@
         </p>
         <p>
            We are collecting this data so that we could take the knowledge about GIT to a larger community and help upcoming projects into a whole new level.
-           So please feel free to fill in the details. We are also giveing a small bit on what is git for who do not know what it is.
+           So please feel free to fill in the details. We are also giveing a small bit on what is GIT for who do not know what it is.
         </p>
     </section>
-    <section>
+    <section id="info">
+        <img src="gitlogo.png">
         <div>
             <h3>What is GIT</h3>
             GIT is a distributed version-control system for tracking changes in any set of files, originally designed for coordinating work among programmers 
@@ -41,9 +43,9 @@
                 <li>Platform Independent</li>
             </ul>
         </div>
-        <div>
+        <div id="command">
             <h3>Some GIT commands</h3>
-            <table>
+            <table border="1">
                 <tr>
                     <th>Command</th>
                     <th>Description</th>
@@ -83,7 +85,7 @@
             </table>
         </div>
     </section>
-    <section>
+    <section class="centre">
         <h2>Survey form</h2>
         <p>Now, please fill the form</p>
         <form>
@@ -110,10 +112,10 @@
                 <input type="radio" name="area" value="other">Freelance projects
                 <input type="radio" name="area" value="other">Other purpose<br>
                 <br>
-            <br><input type="submit" value="Submit survey">
+            <br><input type="submit" value="Submit survey" class="centre">
         </form>
     </section>
-    <h3>Thank you for spending your valuable time for us :)</h3>
+    <h3 class="centre">Thank you for spending your valuable time for us :)</h3>
     <footer>
         <nav>
             Know more about GIT at : <a href="https://git-scm.com/">https://git-scm.com</a><br>

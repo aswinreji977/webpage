@@ -1,0 +1,40 @@
+header{
+    background-color: rgb(172, 188, 212);
+    padding: 30px;
+}
+body{
+    background-color: rgb(253, 253, 244);
+}
+img{
+    height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#info{
+    border: double black 5px;
+    padding: 20px;
+}
+section #command{
+    margin: auto;
+    width: fit-content;
+}
+table{
+    border: 5px solid rgb(253, 78, 34);
+
+}
+th,td{
+    margin: auto;
+    padding: 10px;
+}
+.centre{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+}
+nav{
+    background-color: rgb(172, 188, 212);
+    padding: 20px;
+    text-align: center;
+}
