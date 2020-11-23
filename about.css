@@ -1,0 +1,13 @@
+
+#img1{
+		width:180px;
+		height:180px;
+}
+#div1{
+		border:1px solid black;
+		width:200px;
+		margin:0 auto;
+		padding:5px;
+		background-color:lightgray;
+		text-align:center;
+}
